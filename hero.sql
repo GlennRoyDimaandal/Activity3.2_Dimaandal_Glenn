@@ -105,3 +105,16 @@ VALUES
     (8, 'Fanny', 102, true),
     (9, 'Leomord', 103, false),
     (10, 'Chou', 101, true);
+
+    INSERT INTO Player (player_id, player_name, player_level, player_experience, hero_id)
+VALUES
+    (1, 'ShinmenTakezo', 10, 1000, 1),
+    (2, 'Elgin', 8, 800, 2),
+    (3, 'Betosky', 12, 1500, 3),
+    (4, 'GosuGeneral', 15, 2000, 4),
+    (5, 'MobileLegendsTV', 7, 700, 5),
+    (6, 'HororoChan', 9, 950, 6),
+    (7, 'CongTV', 14, 1800, 7),
+    (8, 'BluePanda', 11, 1200, 8),
+    (9, 'LeomordLegend', 13, 1600, 9),
+    (10, 'ShinmenX', 6, 650, 10);
