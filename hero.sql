@@ -16,3 +16,13 @@ CREATE TABLE IF NOT EXISTS public.item
     item_type character varying(50),
     PRIMARY KEY (item_id)
 );
+
+CREATE TABLE IF NOT EXISTS public.hero
+(
+    hero_id integer NOT NULL,
+    hero_name character varying(255) NOT NULL,
+    class_id integer,
+    is_active boolean,
+    PRIMARY KEY (hero_id),
+    FOREIGN KEY (class_id) REFERENCES class(class_id)
+);
