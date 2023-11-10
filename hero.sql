@@ -118,3 +118,16 @@ VALUES
     (8, 'BluePanda', 11, 1200, 8),
     (9, 'LeomordLegend', 13, 1600, 9),
     (10, 'ShinmenX', 6, 650, 10);
+
+    INSERT INTO Skills (skill_id, skill_name, skill_description, class_id)
+VALUES
+    (301, 'Groundbreaker', 'Powerful melee strike', 101),
+    (302, 'Magic Missile', 'Launches a magic projectile', 102),
+    (303, 'Shadow Kill', 'Sneak attack from shadows', 103),
+    (304, 'Long Shot', 'Precise ranged attack', 104),
+    (305, 'Eagle Eye', 'Enhances accuracy and range', 105),
+    (306, 'Assassinate', 'Silent and deadly strike', 106),
+    (307, 'Dragon Punch', 'Powerful melee combo', 107),
+    (308, 'Healing Wave', 'Restores allys health', 108),
+    (309, 'Iron Wall', 'High defense and protection', 109),
+    (310, 'Arcane Burst', 'Unleashes arcane energy', 110);
