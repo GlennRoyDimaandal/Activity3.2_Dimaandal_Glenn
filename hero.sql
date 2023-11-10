@@ -57,3 +57,12 @@ CREATE TABLE IF NOT EXISTS public.skills
     PRIMARY KEY (skill_id),
 	FOREIGN KEY (class_id) REFERENCES class(class_id)
 );
+
+CREATE TABLE IF NOT EXISTS public.HeroItem 
+(
+    hero_item_id INT PRIMARY KEY,
+    hero_id INT,
+    item_id INT,
+    FOREIGN KEY (hero_id) REFERENCES Hero(hero_id),
+    FOREIGN KEY (item_id) REFERENCES Item(item_id)
+);
