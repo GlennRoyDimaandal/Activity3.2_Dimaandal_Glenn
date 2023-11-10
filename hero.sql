@@ -47,3 +47,13 @@ CREATE TABLE IF NOT EXISTS public.player
     PRIMARY KEY (player_id),
     FOREIGN KEY (hero_id) REFERENCES hero(hero_id)
 );
+
+CREATE TABLE IF NOT EXISTS public.skills
+(
+    skill_id integer NOT NULL,
+    skill_name character varying(255) NOT NULL,
+    skill_description text,
+    class_id integer,
+    PRIMARY KEY (skill_id),
+	FOREIGN KEY (class_id) REFERENCES class(class_id)
+);
