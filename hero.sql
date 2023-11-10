@@ -131,3 +131,16 @@ VALUES
     (308, 'Healing Wave', 'Restores allys health', 108),
     (309, 'Iron Wall', 'High defense and protection', 109),
     (310, 'Arcane Burst', 'Unleashes arcane energy', 110);
+
+    INSERT INTO HeroItem (hero_item_id, hero_id, item_id)
+VALUES
+    (1, 1, 101),  -- Aldous has Blade of Despair
+    (2, 2, 102),  -- Karina has Magic Shoes
+    (3, 3, 103),  -- Gusion has Bloodlust Axe
+    (4, 4, 104),  -- Layla has Demon Hunter Sword
+    (5, 5, 105),  -- Selena has Queen's Wings
+    (6, 6, 106),  -- Hayabusa has Endless Battle
+    (7, 7, 107),  -- Franco has Necklace of Durance
+    (8, 8, 108),  -- Fanny has Thunder Belt
+    (9, 9, 109),  -- Leomord has Blade Armor
+    (10, 10, 110);  -- Chou has Feather of Heaven
