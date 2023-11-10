@@ -79,3 +79,16 @@ VALUES
     (108, 'Support', 'Provide assistance and healing'),
     (109, 'Tank', 'High durability and crowd control'),
     (110, 'Wizard', 'Masters of arcane magic');
+
+    INSERT INTO Item (item_id, item_name, item_description, item_type)
+VALUES
+    (101, 'Blade of Despair', 'Increases physical damage', 'Weapon'),
+    (102, 'Magic Shoes', 'Reduces skill cooldown', 'Armor'),
+    (103, 'Bloodlust Axe', 'Provides spell vamp', 'Consumable'),
+    (104, 'Demon Hunter Sword', 'Increases attack speed', 'Weapon'),
+    (105, 'Queens Wings', 'Provides lifesteal', 'Armor'),
+    (106, 'Endless Battle', 'Enhances basic attacks', 'Weapon'),
+    (107, 'Necklace of Durance', 'Reduces enemy healing', 'Consumable'),
+    (108, 'Thunder Belt', 'Adds a slow effect', 'Armor'),
+    (109, 'Blade Armor', 'Reflects physical damage', 'Armor'),
+    (110, 'Feather of Heaven', 'Increases attack speed', 'Weapon');
