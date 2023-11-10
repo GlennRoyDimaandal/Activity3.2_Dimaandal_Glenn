@@ -26,3 +26,13 @@ CREATE TABLE IF NOT EXISTS public.hero
     PRIMARY KEY (hero_id),
     FOREIGN KEY (class_id) REFERENCES class(class_id)
 );
+
+CREATE TABLE IF NOT EXISTS public.heroitem
+(
+    hero_item_id integer NOT NULL,
+    hero_id integer,
+    item_id integer,
+    PRIMARY KEY (hero_item_id),
+    FOREIGN KEY (hero_id) REFERENCES hero(hero_id),
+    FOREIGN KEY (item_id) REFERENCES item(item_id)
+);
