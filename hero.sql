@@ -36,3 +36,14 @@ CREATE TABLE IF NOT EXISTS public.heroitem
     FOREIGN KEY (hero_id) REFERENCES hero(hero_id),
     FOREIGN KEY (item_id) REFERENCES item(item_id)
 );
+
+CREATE TABLE IF NOT EXISTS public.player
+(
+    player_id integer NOT NULL,
+    player_name character varying(255) NOT NULL,
+    player_level integer,
+    player_experience integer,
+    hero_id integer,
+    PRIMARY KEY (player_id),
+    FOREIGN KEY (hero_id) REFERENCES hero(hero_id)
+);
