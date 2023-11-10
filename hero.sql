@@ -92,3 +92,16 @@ VALUES
     (108, 'Thunder Belt', 'Adds a slow effect', 'Armor'),
     (109, 'Blade Armor', 'Reflects physical damage', 'Armor'),
     (110, 'Feather of Heaven', 'Increases attack speed', 'Weapon');
+
+    INSERT INTO Hero (hero_id, hero_name, class_id, is_active)
+VALUES
+    (1, 'Aldous', 101, true),
+    (2, 'Karina', 102, true),
+    (3, 'Gusion', 103, false),
+    (4, 'Layla', 101, true),
+    (5, 'Selena', 102, true),
+    (6, 'Hayabusa', 103, false),
+    (7, 'Franco', 101, true),
+    (8, 'Fanny', 102, true),
+    (9, 'Leomord', 103, false),
+    (10, 'Chou', 101, true);
